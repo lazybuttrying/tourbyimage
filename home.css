@@ -1,0 +1,67 @@
+body {
+  margin: 2vh auto;
+  width:80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #E7E6E2;
+}
+
+header{
+  margin: 5vh auto;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 3rem;
+  color:  #504D54;
+}
+
+h3{
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 1.2rem;
+  color:  #504D54;
+}
+
+footer{
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8rem;
+  position: absolute;
+  bottom: 2%;
+  
+}
+
+#search_city {
+  border-color: #F0D2A0 ;
+  border-width: thick;
+  border-radius: 10px;
+  height: 30px;
+  width: 50%; 
+  max-width: 600px;
+  /*   #E6A271  #B1B5A7  #F86657*/
+}
+
+.earth {
+  margin: 8% auto;
+  max-width: 40%;
+  max-height: 40%;
+}
+@keyframes fadeOut {
+  0%{ opacity: 1;}
+  100%{opacity: 0;}
+}
+
+.earth:hover{
+  animation-name: fadeOut;
+  animation-duration: 4s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+
+
+.icon{
+  color :  #E7E6E2
+}
+.icon a{
+  color :  #E7E6E2
+}
